@@ -8,4 +8,4 @@ function multiply(arr) {
 		(previousValue, currentValue) => previousValue * currentValue,
 		1)
 }
-console.log(multiply(array))
+multiply(array)
