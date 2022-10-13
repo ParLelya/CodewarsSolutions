@@ -1,16 +1,35 @@
 body {
-	background: linear-gradient(45deg, #000, #fff 50%);
-	height: 100vh;
-	text-align: center;
-	font-size: 1.5em;
-	font-family: 'Raleway', 'Ubuntu Mono', monospace, sans-serif;
+  background: linear-gradient(
+    135deg,
+    rgb(234, 78, 255) 50%,
+    rgb(255, 150, 232) 50%
+  );
+  height: 100vh;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Raleway", "Ubuntu Mono", monospace, sans-serif;
 
-	h1, h3 {
-		font-size: 3rem;
-		font-family: 'Raleway', sans-serif;
-	}
+  h1,
+  h3 {
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+
+  p,
+  option {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 24px;
+  }
+
+  select {
+	font-family: "Ubuntu Mono", monospace;
+    border: 2px solid rgb(133, 24, 148);
+	border-radius: 5px;
+	font-size: 2rem;
+	padding: 5px 15px;
 	
-	p {
-		font-family: 'Ubuntu Mono', monospace;
+	&:hover {
+		box-shadow: 2px 3px 1px 1px #f0a4ff inset;
 	}
+  }
 }
