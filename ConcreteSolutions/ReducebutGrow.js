@@ -1,3 +1,5 @@
+import Solution from "../SolutionRunner.js";
+
 /*
 Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
 [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
@@ -41,3 +43,5 @@ class ReduceButGrow extends Solution {
 	multiply(array)</code></pre>`;
   }
 }
+
+export default ReduceButGrow;

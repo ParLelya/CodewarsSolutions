@@ -1,7 +1,7 @@
 import ReduceButGrow from "./codewars/ReducebutGrow.js";
 import QuarterOfTheYear from "./codewars/Quarteroftheyear.js";
 
-export class Solution {
+export default class Solution {
   constructor(solutionName, kyu) {
     this.solutionName = solutionName;
     this.kyu = kyu;
