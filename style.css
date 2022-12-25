@@ -1,27 +1,33 @@
 body {
-  background: linear-gradient(135deg, rgb(234, 78, 255) 50%, rgb(255, 150, 232) 50%);
+  background: linear-gradient(135deg, #ea4eff 50%, #ff96e8 50%);
   height: 100vh;
   text-align: center;
   font-size: 1.5em;
   font-family: "Raleway", "Ubuntu Mono", monospace, sans-serif;
 }
+
 body h1,
 body h3 {
   font-size: 3rem;
   font-family: "Raleway", sans-serif;
 }
+
 body p,
 body option {
   font-family: "Ubuntu Mono", monospace;
   font-size: 24px;
 }
+
 body select {
   font-family: "Ubuntu Mono", monospace;
-  border: 2px solid rgb(133, 24, 148);
+  border: 2px solid #851894;
   border-radius: 5px;
   font-size: 2rem;
   padding: 5px 15px;
 }
+
 body select:hover {
-  box-shadow: 2px 3px 1px 1px #f0a4ff inset;
-}/*# sourceMappingURL=style.css.map */
+  -webkit-box-shadow: 2px 3px 1px 1px #f0a4ff inset;
+          box-shadow: 2px 3px 1px 1px #f0a4ff inset;
+}
+/*# sourceMappingURL=style.css.map */
